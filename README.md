@@ -67,10 +67,19 @@ You can also open the schematic in Moveit or Gazebo:
 
 Gazebo:
 
-    1 - roslaunch robot_arm_pkg check_motors.launch
-    2 - roslaunch robot_arm_pkg check_motors_gazebo.launch
-    3 - rosrun robot_arm_pkg joint_states_to_gazebo.py
+    roslaunch robot_arm_pkg check_motors_gazebo.launch
+
+![image](https://user-images.githubusercontent.com/109832303/181914754-9262e54d-3b52-45ae-a550-2bc0a44ece03.png)
+
     
 Moveit: 
 
+
     roslaunch moveit_pkg demo.launch
+    
+![image](https://user-images.githubusercontent.com/109832303/181914809-662e750c-0521-422c-b3eb-f3eda3b338f2.png)
+ 
+ 
+ 
+If any of these three applications open the schematic successfully, then your installation was correct and error free. You can now tweak and edit everything to your liking.
+
