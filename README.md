@@ -81,5 +81,5 @@ Moveit:
  
  
  
-If any of these three applications open the schematic successfully, then your installation was correct and error free. You can now tweak and edit everything to your liking.
+If any of these three options open the schematic successfully, then your installation was correct and error free. You can now tweak and edit everything to your liking.
 
