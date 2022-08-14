@@ -11,11 +11,11 @@ ROS version: Noetic
 
 Input these commands in the cmd: 
     
-    1 - source /opt/ros/noetic/setup.bash
-    2 - mkdir -p ~/catkin_ws/src
-    3 - cd ~/catkin_ws/ 
-    4 - catkin_make
-    5 - source devel/setup.bash
+     source /opt/ros/noetic/setup.bash
+     mkdir -p ~/catkin_ws/src
+     cd ~/catkin_ws/ 
+     catkin_make
+     source devel/setup.bash
     
 Now your ROS workspace is ready to have packages installed in it. 
 
@@ -27,25 +27,25 @@ Part I
 
 These commands will add the ardunino robot arm package to the src folder: 
 
-    1 - cd catkin_ws/src/
-    2 - sudo apt install git
-    3 - git clone https://github.com/smart-methods/arduino_robot_arm
+     cd catkin_ws/src/
+     sudo apt install git
+     git clone https://github.com/smart-methods/arduino_robot_arm
     
 Part II
 
 These commands will install all the necessary dependencies: 
 
-    4 - cd catkin_ws
-    5 - sudo apt-get install ros-noetic-moveit
-    6 - sudo apt-get install ros-noetic-joint-state-publisher ros-noetic-joint-state-publisher-gui
-    7 - sudo apt-get install ros-noetic-gazebo-ros-control joint-state-publisher
-    8 - sudo apt-get install ros-noetic-ros-controllers ros-noetic-ros-control
+     cd catkin_ws
+     sudo apt-get install ros-noetic-moveit
+     sudo apt-get install ros-noetic-joint-state-publisher ros-noetic-joint-state-publisher-gui
+     sudo apt-get install ros-noetic-gazebo-ros-control joint-state-publisher
+     sudo apt-get install ros-noetic-ros-controllers ros-noetic-ros-control
 
 Part III
 
 This final command will compile all packages in your src folder: 
 
-    9 - catkin_make
+     catkin_make
     
     
 ## Test your installation: 
